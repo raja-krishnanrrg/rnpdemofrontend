@@ -175,6 +175,7 @@ const Employee = () => {
           name="status"
           value={task.status}
           onChange={handleChange}
+          class="dropdown"
         >
           <option value="pending">Pending</option>
           <option value="on_process">On Process</option>

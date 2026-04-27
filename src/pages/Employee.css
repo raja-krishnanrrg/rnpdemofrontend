@@ -45,3 +45,25 @@
 .emp-box button:hover {
   background: #15803d;
 }
+
+
+.dropdown {
+  width: 200px;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dropdown:hover {
+  border-color: #888;
+}
+
+.dropdown:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.4);
+}
